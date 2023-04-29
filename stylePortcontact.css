@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --primarycolor: blue;
+    --secundarycolor: white;
+
+}
+
+nav{
+    display:flex;
+    color:white;
+    background-color: black;
+    height:80px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div{
+    width: 50%;
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 300px;
+    
+}
+
+nav div img{
+    height:75px;
+    width:198px;
+}
+
+nav ul{
+    display:flex;
+    width: 50%;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--secundarycolor);
+    letter-spacing: .1rem;
+}
+
+nav ul li a:hover{
+    color:var(--primarycolor)
+}
+
+nav ul li a:active{
+    background-color: white;
+}
+
+body{
+    background-color: white;
+}
+
+.letrascontacto{
+    display: flex;
+    height:70px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+.letrascontacto2{
+    display: flex;
+    height:50px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+
+}
+.letrascontacto div{
+    display:flex; 
+}
+
+.letrascontacto div h3{
+    padding-left:30px;
+}
+
+.flecha{
+    display:flex;
+    justify-content: center;
+}
+
+.flecha img{
+    height:120px;
+    transition: transform 0.3s linear
+}
+
+.flecha img:hover{
+    transform: scaleX(1.3);
+}
+.formulario{
+    display: flex;
+    height:50%;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    
+}
+
+.formulario form{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    flex-wrap: wrap;
+
+}
+.formulario form h1{
+    color:black;
+    width:100%;
+    height:40px;
+    text-align: center;
+} 
+
+.formulario form div{
+    width:100%;
+    height:45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario form div input{
+    height:40px;
+    width:40%;
+
+}
+
+.formulario form textarea{
+    width:100%;
+    height:200px;
+}
+
+.footer{
+    display:flex;
+    color:white;
+    background-color: black;
+    height:60px;
+    width:100%;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
